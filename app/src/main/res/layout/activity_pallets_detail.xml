@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp"
+    tools:context=".ui.PalletsDetailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pallets Detail"
+        android:textColor="@color/primary_text"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/primary_text">
+
+            <EditText
+                android:id="@+id/etPalletTagNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusable="false"
+                android:hint="@string/pallet_tag_num"
+                android:text="00.000000.00"
+                android:textAlignment="textEnd"
+                android:textColor="@color/secondary_text"
+                android:textSize="20sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/primary_text">
+
+            <EditText
+                android:id="@+id/etCurrentQty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusable="false"
+                android:hint="Current Qty."
+                android:inputType="number"
+                android:text="90"
+                android:textAlignment="textEnd"
+                android:textColor="@color/secondary_text"
+                android:textSize="20sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/primary_text">
+
+            <EditText
+                android:id="@+id/etNewQty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="New Qty."
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:text="90"
+                android:textAlignment="textEnd"
+                android:textColor="@color/secondary_text"
+                android:textSize="20sp" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="savePallet"
+        android:text="OK" />
+
+</LinearLayout>

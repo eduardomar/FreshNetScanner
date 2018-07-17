@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FreshNet scanner</string>
+    <string name="scan_document">Scan your document</string>
+    <string name="btnArrivals">Arrivals</string>
+    <string name="btnShipments">Shipments</string>
+    <string name="btnMovePallets">Move pallets</string>
+    <string name="hint_arrival">Arrival</string>
+    <string name="hint_door">Door</string>
+    <string name="hint_ship_nname">Shipper name</string>
+    <string name="hint_lot_num">Lot #</string>
+    <string name="hint_ref">Reference</string>
+    <string name="hint_scan_pallet">Scan pallet</string>
+    <string name="product_desc">Product description</string>
+    <string name="pkgs_man">Pkgs. Man.</string>
+    <string name="pkgs_rec">Pkgs. Rec.</string>
+    <string name="qty">Qty</string>
+    <string name="pallet_tag_num">Pallet tag #</string>
+</resources>

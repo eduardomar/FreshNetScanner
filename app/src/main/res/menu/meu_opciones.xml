@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btnArrivals"
+        android:title="@string/btnArrivals" />
+    <item
+        android:id="@+id/btnShipments"
+        android:title="@string/btnShipments" />"
+
+    <item
+        android:id="@+id/btnMovePallets"
+        android:title="@string/btnMovePallets" />
+</menu>
